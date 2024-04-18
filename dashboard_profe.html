@@ -1,0 +1,72 @@
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">        
+        <meta name="description" content="">
+        <title>Dashboard PROFE</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">        
+        <link rel="stylesheet" href="css/css.css">
+    </head>
+    <body>
+        <section >
+          <nav>
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">PROFE UCH</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="dashboard_profe.html">Mis cursos</a></li>               
+                <li><a href="login.html" id="salir">Salir</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="container">
+            <h1 class="mt-5 mb-4">Mis Cursos</h1>
+    
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="curso card">
+                        <div class="card-body">
+                            <h2 class="card-title">Curso de Matemáticas</h2>
+                            <p class="card-text">Habilidades matematicas</p>
+                            <button class="btn btn-primary btn-ver-descripcion" onclick="verDescripcion('matematicas')">Ver Descripción</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 mb-4">
+                    <div class="curso card">
+                        <div class="card-body">
+                            <h2 class="card-title">Curso de Historia</h2>
+                            <p class="card-text">Habilidades historicas.</p>
+                            <button class="btn btn-primary btn-ver-descripcion" onclick="verDescripcion('historia')">Ver Descripción</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 mb-4">
+                    <div class="curso card">
+                        <div class="card-body">
+                            <h2 class="card-title">Curso de Ciencias</h2>
+                            <p class="card-text">Habilidades tecnologicas</p>
+                            <button class="btn btn-primary btn-ver-descripcion" onclick="verDescripcion('ciencias')">Ver Descripción</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="descripcion-curso" class="mt-5 mb-4">
+                <h2 id="nombre-curso"></h2>
+                <p id="texto-descripcion"></p>
+            </div>
+        </div>
+    
+    </body>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/profe.js"></script>
+</html>

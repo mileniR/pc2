@@ -1,0 +1,64 @@
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">        
+        <meta name="description" content="">
+        <title>Dashboard ALUMNO</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">        
+        <link rel="stylesheet" href="css/css.css">
+    </head>
+    <body>
+        <section >
+          <nav>
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">ALUMNO</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="dashboard_alumno.html">Mi Perfil</a></li>               
+                <li><a href="login.html" id="salir">Salir</a></li>
+              </ul>
+            </div>
+          </nav>
+          <div class="container">
+            <h1 class="my-4">Mi Perfil</h1>
+    
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">Nombre: Juan Pérez</h2>
+                            <p class="card-text">Edad: 18 años</p>
+                            <p class="card-text">Correo Electrónico: juanperez@example.com</p>
+                            <p class="card-text">País: México</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <h1 class="my-4">Encuesta - Profesor Favorito</h1>
+    
+            <form>
+                <div class="form-group">
+                    <label for="profesor">Selecciona tu profesor favorito:</label>
+                    <select class="form-control" id="profesor">
+                        <option value="1">ROGGER FRANCCESCO DE LA ROSA CAMPOS</option>
+                        <option value="2">RUBI SONI GALINDO PERES</option>
+                        <option value="3">LUNA MARTHA RIST LUYA</option>
+                        <option value="4">MARCO MONTALVAN FLORES</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+
+
+        </section>
+    </body>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/alumno.js"></script>
+</html>
